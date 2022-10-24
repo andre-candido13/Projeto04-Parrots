@@ -15,7 +15,7 @@ let ul;
 function selecionarCartas() {
 
 
-  let answerPlayer = Number(prompt("Bem vindo ao jogo! Selecione de 4 a 14 cartas"));
+  answerPlayer = Number(prompt("Bem vindo ao jogo! Selecione de 4 a 14 cartas"));
 
 
   for (contador = 0; answerPlayer > contador; contador++) {
@@ -116,19 +116,23 @@ function verify() {
 
   }
 
-  if (contadorAcerto === answerPlayer / 2) {
-
+  if (contadorAcerto === answerPlayer/2) {
+    
+    
+    teste5();
 
   }
-  conseguiu()
-  alert("oi")
-
+  
+  console.log(contadorAcerto)
 }
 
-function conseguiu() {
-
+function teste5(){
+let mensagem = contadorErro+contadorAcerto
+alert(`Parabéns, você ganhou em  ${mensagem} jogadas!`) 
 }
 
+
+  
 
 function virar(clicou) {
 
