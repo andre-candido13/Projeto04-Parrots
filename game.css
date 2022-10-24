@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body{
+
+  background-color: #EEF9BF;
+  display: flex;
+  justify-content: center;
+}
+
+.conteiner {
+
+    width: 1140px;
+    padding: 0 15px;
+    background-color: aqua;
+    
+}
+
+.titulo {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  width: 100% px;
+  margin: 40px 0 35px 0;
+  
+
+}
+
+h1 {
+  font-family: "roboto";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 65.63px;
+  letter-spacing: -0.4%;
+  color: #75B79E
+}
+
+ul {
+  background-color: red;
+  margin-right: 17px;
+  margin-left: 17px;
+  width: 117px;
+  height: 146px;
+  position: relative;
+  margin-top: 34px;
+
+}
+
+.teste {
+
+  background-color: yellow;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  height: 100%;
+
+
+}
+
+
+.card {
+
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+ 
+  }
+
+
+  .face {
+    width: 100%;
+    height: 100%;
+    background-color: #A7E9AF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+    
+  }
+
+  .back-face {
+    transform: rotateY(180deg);
+  }
+
+  .virada .back-face {
+    transform: rotateY(0deg);
+  }
+
+  .virada {
+
+    transform: rotatey(0deg);
+  }
+
+  .virada .front-face {
+    transform: rotateY(-180deg);
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  @media screen and (max-width: 335px) {
+    h1 {
+      font-size: 56px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
