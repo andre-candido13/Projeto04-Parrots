@@ -11,15 +11,15 @@ body{
 
     width: 1140px;
     padding: 0 15px;
-    background-color: aqua;
+    
     
 }
 
 .titulo {
-  background-color: green;
+  
   display: flex;
   justify-content: center;
-  width: 100% px;
+  width: 100%;
   margin: 40px 0 35px 0;
   
 
@@ -31,11 +31,11 @@ h1 {
   font-weight: 700;
   line-height: 65.63px;
   letter-spacing: -0.4%;
-  color: #75B79E
+  color: #75B79E;
 }
 
 ul {
-  background-color: red;
+  
   margin-right: 17px;
   margin-left: 17px;
   width: 117px;
@@ -47,7 +47,7 @@ ul {
 
 .teste {
 
-  background-color: yellow;
+
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -62,7 +62,7 @@ ul {
 
 .card {
 
-  background-color: pink;
+
   display: flex;
   justify-content: center;
   width: 100%;
@@ -112,6 +112,7 @@ ul {
   @media screen and (max-width: 335px) {
     h1 {
       font-size: 56px;
+      width: 335px;
     }
   }
 
